@@ -1,0 +1,16 @@
+{
+    "extends": "standard",
+    "plugins": [
+        "standard",
+        "promise",
+	"react"
+    ],
+    "parserOptions":{
+    	"ecmaFeatures":{
+		"jsx": true
+    	}
+    },
+    "env": {
+	"es6": true
+   }
+}
