@@ -1,16 +1,20 @@
 {
-    "extends": "standard",
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
     "plugins": [
         "standard",
         "promise",
-	"react"
+	     "react"
     ],
     "parserOptions":{
     	"ecmaFeatures":{
 		"jsx": true
-    	}
     },
+    "sourceType": "module"
+    },
+    "rules": {
+    "react/jsx-uses-react": 1
+},
     "env": {
 	"es6": true
-   }
+}
 }

@@ -1,6 +1,7 @@
-import { Component } from 'react'
+import React, { Component } from 'react'
 import {
-
+  TouchableHighlight,
+  Text
 } from 'react-native'
 
 import Style from './Style'
@@ -18,4 +19,10 @@ export default class InputButton extends Component {
         )
   }
 
+}
+
+InputButton.propTypes = {
+  highlight: React.PropTypes.bool,
+  onPress: React.PropTypes.any,
+  value: React.PropTypes.any
 }
